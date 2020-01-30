@@ -1,5 +1,5 @@
 # s3-hardening
-A Python (to be used in a Lambda) project to harden the security posture of an AWS S3 bucket.
+A Python (to be used in a AWS Lambda) project to harden the security posture of an AWS S3 bucket.
 
 This project is meant to be implemented in a Lambda function which could take CloudTrail events such as 'CreateBucket' and 'PutBucketPolicy' as triggers or simply scheduled to run by a Cron expression.
 
